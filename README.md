@@ -11,3 +11,4 @@
 - Extraction of data from API 
 ## Done
 - Write first done task
+- Connect to Postgres data base and append data
