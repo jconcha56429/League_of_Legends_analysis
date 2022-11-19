@@ -7,11 +7,11 @@
 - Figure out more fitting name for what project seeks to accomplish
 - Transfrom data to fit needs
 - Create API query which will pull most recent data and append to DB
-- Query data from opposing jungler as secondary table which is joinable on game ID 
 
 ## In-progress
 - Extraction of data from API 
 - Load data into Database (ie. Postgres/SQL based most likely)
+- Query data from opposing jungler as secondary table which is joinable on game ID 
 
 ## Done
 - Write first done task
@@ -19,5 +19,5 @@
 
 ### Data Considerations
 - [x] Match data
-- [ ] 
-- [ ] 
+- [ ] N/A 
+- [ ] N/A
