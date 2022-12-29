@@ -1,5 +1,5 @@
 # Portfolio
-### A passion project created by Jacob Concha & Eduardo Gonzales Rojas 
+### A passion project created by Jacob Concha
 ---
 
 ## To-Do
