@@ -111,3 +111,26 @@ CREATE TABLE "self_data" (
 "wardsKilled" INTEGER,  
 "wardsPlaced" INTEGER, 
 "win" BOOLEAN)
+
+
+-- WITH wins as (select "championName" AS champion,
+-- win,
+-- count("win") as win_tf
+-- from self_data
+-- group by win, "championName"),
+
+-- champ_count AS (
+-- select "championName" as champion,
+-- count("championName") as total_games
+-- from self_data
+-- group by "championName")
+
+-- select wins.champion,
+-- wins.win,
+-- wins.win_tf,
+-- champ_count.total_games,
+-- CAST(wins.win_tf AS FLOAT)/(CAST(champ_count.total_games AS FLOAT)) AS win_percent
+-- FROM wins
+-- LEFT JOIN champ_count 
+-- ON wins.champion = champ_count.champion
+-- ORDER BY champion
